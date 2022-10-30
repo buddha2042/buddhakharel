@@ -1,7 +1,7 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'bbbl-llc',
+    title: 'BBDL-llc',
     htmlAttrs: {
       lang: 'en'
     },
@@ -17,8 +17,10 @@ export default {
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
-  css: [
-  ],
+
+  css:[ ], 
+  scss:[], 
+  
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [

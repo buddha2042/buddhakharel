@@ -1,19 +1,25 @@
 <template>
   <div>
-<Navbar/>
-<Page/>
 
+<Navbar/>
+<Carousel/>
+<Page/>
+<social/>
 <Footer/>
 
-  </div>
+</div>
 </template>
 
 <script>
+
+
   export default {
+   
     
   }
 </script>
 
 <style scoped>
+
 
 </style>
