@@ -17,6 +17,7 @@
     "core-js": "^3.25.3",
     "mdb-vue-ui-kit": "^3.0.0",
     "nuxt": "^2.15.8",
+    "pug": "^3.0.2",
     "scss": "^0.2.4",
     "vue": "^2.7.10",
     "vue-server-renderer": "^2.7.10",

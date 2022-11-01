@@ -1,95 +1,63 @@
 <template>
-  <div>
-    <body>
-      <!-- slider container -->
-       <div class="slider">
-   
-         <!-- slide 1 -->
-         <div class="slide">
-           <img
-             src="https://source.unsplash.com/random?landscape,mountain"
-             alt=""
-           />
-         </div>
-   
-          <!-- slide 2 -->
-         <div class="slide">
-           <img src="https://source.unsplash.com/random?landscape,cars" alt="slide1" />
-         </div>
-   
-          <!-- slide 3 -->
-         <div class="slide">
-           <img src="https://source.unsplash.com/random?landscape,night" alt="slide2" />
-         </div>
-   
-          <!-- slide 4 -->
-         <div class="slide">
-           <img src="https://source.unsplash.com/random?landscape,city" alt="slide3" />
-         </div>
-   
-          <!-- Control buttons -->
-         <button onclick="#slide" class="btn btn-next"></button>
-         <button class="btn btn-prev"></button>
-       </div>
-     </body>
+<!--Carousel Wrapper-->
+<div  class="carousel  " >
+
+  <ol class="carousel-indicators">
+  <form>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
   </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+  </div>
+  <div class="form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+  </div>
+
+  <button  class="btn btn-primary">Submit</button>
+
+</form>
+      
+    </ol>
+    <!--/.Indicators-->
+    <!--Slides-->
+    <div class="carousel-inner" role="listbox">
+      <div class="carousel-item active">
+        <video class="video-fluid" autoplay loop muted>
+          <source src="https://mdbootstrap.com/img/video/Tropical.mp4" type="video/mp4" />
+        </video>
+      </div>
+      <div class="carousel-item">
+        <video class="video-fluid" autoplay loop muted>
+          <source src="https://mdbootstrap.com/img/video/forest.mp4" type="video/mp4" />
+        </video>
+      </div>
+      <div class="carousel-item">
+        <video class="video-fluid" autoplay loop muted>
+          <source src="https://mdbootstrap.com/img/video/Agua-natural.mp4" type="video/mp4" />
+        </video>
+      </div>
+    </div>
+  
+  </div>
+  <!--Carousel Wrapper-->
 </template>
 
 <script>
   export default {
     
-    
   }
 </script>
 
 <style  scoped>
-
-.slider {
+.carousel-item{
   width: 100%;
-
-  height: 350px;
-  position: relative;
-  /* overflow: hidden; */
+  height: 305px;
 }
 
-.slide {
-  width: 100%;
 
-  height: 350px;
-  position: absolute;
-  transition: all 0.5s;
-}
-
-.slide img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.btn {
-  position: absolute;
-  width: 40px;
-  height: 40px;
-  padding: 10px;
-  border: none;
-  border-radius: 50%;
-  z-index: 10px;
-  cursor: pointer;
-  background-color: #fff;
-  font-size: 18px;
-}
-
-.btn:active {
-  transform: scale(1.1);
-}
-
-.btn-prev {
-  top: 45%;
-  left: 2%;
-}
-
-.btn-next {
-  top: 45%;
-  right: 2%;
-}
 </style>
