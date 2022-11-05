@@ -2,7 +2,9 @@
   <div>
 
 <Navbar/>
-<Carousel/>
+<login/>
+<Carousel />
+<br>
 <Page/>
 <social/>
 <Footer/>
@@ -18,8 +20,7 @@
     
   }
 </script>
-
+}
 <style scoped>
-
 
 </style>

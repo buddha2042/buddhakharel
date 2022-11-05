@@ -1,7 +1,7 @@
 <template>
     <div>
         <div class="  logo-container" >
-            <h1 class="Logos">OUR PARENT COMPANIES</h1>
+            <h1 class="Logos">OUR COMPANIES</h1>
             <p class="para">ACROSS THE GLOBE</p>
             <ul>
               <li>
@@ -12,14 +12,7 @@
                   </a>
                 </div>
               </li>
-              <li>
-                <div class="logo-holder logo-2">
-                  <a href="">
-                    <h3>B&DEV</h3>
-                    <p>WEB SERVICES</p>
-                  </a>
-                </div>
-              </li>
+            
               <li>
                 <div class="logo-holder logo-3">
                   <a href="">
@@ -105,22 +98,7 @@ h1, h2, h3, h4, h5, h6, p{
     color: #34495e;
     font-weight: 600;
 }
-/* Logo-2 */
-.logo-2 h3 {
-    color: #e74c3c;
-    font-family: 'Oswald', sans-serif;
-    font-weight: 300;
-    font-size: 50px;
-    text-transform: uppercase;
-    line-height:1;
-}
-.logo-2 p {
-    font-size: 14px;
-    padding-left: 0px;
-    color: #34495e;
-    font-weight: 600;  
-    text-transform: uppercase;
-}
+
 /* Logo-3 */
 .logo-3 h3 {
     color: #06e70e;

@@ -1,30 +1,75 @@
 
 <template>
-  <nav class="navbar navbar-expand-lg  sticky-top">
-    <div class="logo-holder logo-7">
-      <a href="#">
-        <i class="fas fa-book-open"></i>
-        <div class="left">
-          <h3>BBDL-USA</h3>
-          <p> Business Services...!</p>
-        </div>
-      </a>
-    </div>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+  <div >
+    <b-navbar  toggleable="lg" type="dark" variant="info" position="fixed">
+      <b-navbar variant="faded" type="light">
+        <b-navbar-brand href="#">
+          <img src="../assets/logo.png" class="d-inline-block align-top " alt="Kitten">
+        </b-navbar-brand>
+      </b-navbar>
+      <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
   
-    <div class="collapse navbar-collapse menu-text d-flex d-none d-sm-none justify-content" >
-      <ul class="navbar-nav mr-auto mt-2 mt-lg  ">
-        <li class="nav-item active"><a class="nav-link" href="#domestic-service-desk"><span class="fa fa-home fa-lg" ></span> Services</a></li>
-
-                   <li class="nav-item active"><a class="nav-link" href="#domestic-service-desk"><span  ></span>HireUs</a></li>
-                   <li class="nav-item active"><a class="nav-link" href="#why choose us"><span ></span>Clients</a></li>
-
-                   <li class="nav-item active"><a class="nav-link" href="#footer"><span class="fa fa-address-card fa-lg" ></span>ContactUs</a></li>
-      </ul>
-    </div>
-  </nav>
+      <b-collapse id="nav-collapse" is-nav>
+        <b-navbar-nav>
+          <b-nav-item v-b-modal.modal-1>OurServices</b-nav-item>
+          <b-modal id="modal-1" title="Our Services">
+            <div class="">
+               1) Streamlined automation via machine learning <br>
+               2) Shopping Cart / Online Ordering System / Online Payments <br>
+               3) Web Application / Business Software <br>
+               4) User Experience (UX) Design <br>
+               5) Targeted support on specific products <br>
+               6) Virtual face-to-face IT support
+           </div>
+          </b-modal>
+          <b-nav-item href="#footer" >ContactUs</b-nav-item>
+          <b-nav-item class="mb-2" variant="primary" @click="$bvToast.show('example-toast')">GetPrice</b-nav-item>
+          <b-toast id="example-toast" title="" static no-auto-hide>
+            <form>
+              <div class="form-group">
+                <label for="exampleFormControlInput1">Email address</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+              </div>
+              <div class="form-group">
+                <label for="exampleFormControlSelect1">Services You Looking for </label>
+                <select class="form-control" id="exampleFormControlSelect1">
+                  <option>1) Production Support </option>
+                  <option>2) Application Developments</option>
+                  <option>3) Software Developments</option>
+                  <option>4 ) Website Design </option>
+                  <option>5 ) Others </option>
+                </select>
+              </div>
+             
+              <div class="form-group">
+                <label for="exampleFormControlTextarea1">Please write in detail</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                <button >send</button>
+              </div>
+            </form>
+          </b-toast>
+        </b-navbar-nav>
+  
+        <!-- Right aligned nav items -->
+        <b-navbar-nav class="ml-auto">
+          <b-nav-form>
+            <b-form-input size="sm" class="mr-sm-2" placeholder="Search"></b-form-input>
+            <b-button size="sm" class="my-2 my-sm-0" type="submit">Search</b-button>
+          </b-nav-form>
+  
+          <b-nav-item-dropdown right>
+            <!-- Using 'button-content' slot -->
+            <template #button-content>
+              <em>User</em>
+            </template>
+            <b-dropdown-item @click="show('example-toas')">Login</b-dropdown-item>
+            <b-dropdown-item href="#">Profile</b-dropdown-item>
+            <b-dropdown-item href="#">Sign Out</b-dropdown-item>
+          </b-nav-item-dropdown>
+        </b-navbar-nav>
+      </b-collapse>
+    </b-navbar>
+  </div>
 </template>
 
 <script>
@@ -35,62 +80,12 @@
 
 <style  scoped>
 
-.navbar{
-  background-color: rgb(91, 189, 189);
-  color: white;
+.d-inline-block{
+  height: 90px;
+  width: 160px;
+
 
 }
-li{
-  padding-right: 20px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-style: italic;
-  font-display: bold;
-  font-weight: 150;
-  font-language-override: normal;
-  font-size: large;
-}
-.navbar-brand{
-  color: white;
-  font-size: x-large;
-  font-style: inherit;
-}
-.logo-7 {
-  width: 100%;
-  display: inline-block;
-}
-.logo-7 i {
-  font-size: 60px;
-  display: inline-block;
-  float: left;
-  margin-right: 5px;
-  color: #34495e;
-}
-.logo-7 .left {
-  float: left;
-  margin-left: 10px;
-  text-align: left;
-}
-.logo-7 a {
-  color: #545454;
-}
-.logo-7 .left h3 {
-  font-family: 'Muli', sans-serif;
-  font-weight: 400;
-  font-size: 25px;
-  text-transform: uppercase;
-  color: #5c5cee;
-  font-style: italic;
-  font-display: filters;
-}
-.logo-7 .left p {
-  text-align: right;
-  font-size: 14px;
-  color: #323030;
-  font-style: italic;
-  border-top: 1px dashed #919191;
-  letter-spacing: 2px;
-  padding-top: 3px;
-  font-family: 'Lobster', cursive;
-}
+
 
 </style> 
