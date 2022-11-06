@@ -2,7 +2,7 @@
   <div>
 
 <Navbar/>
-
+<login/>
 <Carousel />
 <br>
 <Page/>
@@ -13,9 +13,11 @@
 </template>
 
 <script>
+import loginVue from '../components/login.vue';
 
 
   export default {
+    loginVue
    
     
   }

@@ -66,7 +66,7 @@
             <template #button-content>
               <em >User</em>
             </template>
-            <b-dropdown-item @click="show('example-toas')">LogIn</b-dropdown-item>
+            <b-dropdown-item href="LoginVue">LogIn</b-dropdown-item>
             <b-dropdown-item @click="show('example-toas')">SignUp</b-dropdown-item>
        
           </b-nav-item-dropdown>
@@ -95,8 +95,7 @@
   text-align: center;
 }
 img{
- color: rgb(241, 232, 239);
- 
+
 }
 
 </style> 

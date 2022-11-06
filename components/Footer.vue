@@ -27,8 +27,8 @@
   
 
         <p> <span> <a class="link" @click="$bvToast.show('second-toast')">Careers</a>  |  <a class="link" v-b-modal.modal-1 >Team</a>  |  <a class="link" @click="$bvToast.show('example-toast')" >Locations</a> |  <a class="link" href="#d-block">Clients</a></span> <br/><span>Phone Number: +1 800-2333-9971</span><br />
-          <span>Email: info@bobbyanddev.com</span>  <br/> www.bobbyanddev.com</p>
-
+          <span> <a href="#">www.bobbyanddev.com</a></span>  <br/>Email: info@bobbyanddev.com
+ </p>
       <!-- Section: Text -->
       <section class="mb-4">
         <p>
