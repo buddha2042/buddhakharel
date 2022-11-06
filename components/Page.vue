@@ -5,7 +5,7 @@
     <div class="container mb-4" id="why choose us">
     <div class="row vertical-center">
       <div class="col-md-5 mb-2 order-2 order-md-1 text-center">
-        <h1 style="color: rgb(30, 37, 173)">WHO WE ARE ?</h1>
+        <h2 style="color: rgb(30, 37, 173)">Why Choose BBDL?</h2>
         <p style="color: green"> 
          You know the importance of reliable IT for your company. So why work with us?
    
