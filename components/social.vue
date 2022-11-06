@@ -1,8 +1,13 @@
 <template>
     <div>
-        <div class="  logo-container" >
+        <div class="  logo-container "  >
+          <div class="bg-image" 
+     style="background-image: url('https://source.unsplash.com/random?landscape,Sunset, Sunrise');
+            ">
+
             <h1 class="Logos">OUR COMPANIES</h1>
-            <p class="para">ACROSS THE GLOBE</p>
+            <p class="para">ACROSS THE WORLD</p>
+          
             <ul>
               <li>
                 <div class="logo-holder logo-1">
@@ -12,7 +17,7 @@
                   </a>
                 </div>
               </li>
-            
+         
               <li>
                 <div class="logo-holder logo-3">
                   <a href="">
@@ -35,10 +40,27 @@
           </div>
           <div class="follow">
             <a href="https://facebook.com/buddha2042" target="_blank"><i class="fb_logo img sp_ezjerk sx_440431">
-              <u>B
-              </u>
             </i></a>
-          </div>
+       
+          <div class="container p-4">
+ 
+      <!-- Section: Social media -->
+ 
+        <a target="_blank" href="https://www.facebook.com/buddha2042/">
+          <img src="../assets/facebook.png">
+         </a>
+         <a target="_blank" href="https://www.twitter.com/buddha_kharel/">
+          <img src="../assets/twitter.png">
+         </a>
+         <a target="_blank" href="https://www.youtube.com/buddha2042/">
+          <img src="../assets/youtube.png">
+         </a>
+         <a target="_blank" href="https://www.instagram.com/buddha2042/">
+          <img src="../assets/lindkin.png">
+         </a> 
+         </div>  </div>
+       </div>
+       
     </div>
 </template>
 
@@ -206,6 +228,7 @@ h1, h2, h3, h4, h5, h6, p{
   body{
       margin:0;
       padding:0;
+
   }
   .logo-container ul {
       width: 100%;

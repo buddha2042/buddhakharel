@@ -4,30 +4,30 @@
 <footer class=" footer  text-center text-white" id="footer">
     <!-- Grid container -->
     <div class="container p-4">
-        <h5>Follow Us </h5>
+        <h3 >Follow Us </h3>
       <!-- Section: Social media -->
-      <section class="mb-4">
-        <a class="p-icon--github" href="https://facebook.com/buddha2042">Facebook</a>
-        <a class="p-icon--twitter" href="https://twitter.com/buddha.kharel">Twitter</a>
-        <a class="p-icon--github" href="https://youtube.com/buddha2042">Youtube</a>
-        <a class="p-icon--twitter" href="https://twitter.com/buddha2042">Linkdin</a>
-        <div class="h2 mb-0">
-          <b-icon icon="exclamation-circle-fill" variant="success"></b-icon>
-          <b-icon icon="exclamation-circle-fill" variant="warning"></b-icon>
-          <b-icon icon="exclamation-circle-fill" variant="danger"></b-icon>
-          <b-icon icon="exclamation-circle-fill" variant="info"></b-icon>
-          <b-icon icon="exclamation-circle-fill" variant="primary"></b-icon>
-          <b-icon icon="exclamation-circle-fill" variant="secondary"></b-icon>
-          <b-icon icon="exclamation-circle-fill" variant="dark"></b-icon>
+ 
+        <a target="_blank" href="https://www.facebook.com/buddha2042/">
+          <img src="../assets/facebook.png">
+         </a>
+         
+         <a target="_blank" href="https://www.instagram.com/blaustern_fotografie/">
+          <img src="../assets/twitter.png">
+         </a>
+         <a target="_blank" href="https://www.instagram.com/blaustern_fotografie/">
+          <img src="../assets/lindkin.png">
+         </a> 
+         <a target="_blank" href="https://www.twitter.com/buddha.kharel/">
+          <img class="youtube" src="../assets/youtube.png">
+         </a>
         </div>
 
- </section>
       <!-- Section: Social media -->
   
   
 
-        <p> <span> <a class="link" href=./employement.html>Careers</a>  |  <a class="link" href="https://nepalusa.org/team.html" >Team</a>  |  <a class="link" href="https://www.nepalusa.org">Locations</a> |  <a class="link" href="https://nepalusa.org/user">Clients</a></span> <br/><span>Phone Number: +1 800-2333-9971</span><br />
-          <span>Email: info@nepalusa.org</span>  <br/> www.nepalusa.org</p>
+        <p> <span> <a class="link" @click="$bvToast.show('second-toast')">Careers</a>  |  <a class="link" v-b-modal.modal-1 >Team</a>  |  <a class="link" @click="$bvToast.show('example-toast')" >Locations</a> |  <a class="link" href="#d-block">Clients</a></span> <br/><span>Phone Number: +1 800-2333-9971</span><br />
+          <span>Email: info@bobbyanddev.com</span>  <br/> www.bobbyanddev.com</p>
 
       <!-- Section: Text -->
       <section class="mb-4">
@@ -38,7 +38,6 @@
       <!-- Section: Text -->
   
     
-    </div>
     <!-- Grid container -->
   
     <!-- Copyright -->
@@ -88,5 +87,14 @@
     background-color: rgb(89, 154, 154);
 
 }
+img{
+  height: 40px;
+  width: 40px;
+  padding: .5%;
+}
+.youtube{
+  height: 54px;
+}
+
 
 </style>

@@ -1,7 +1,7 @@
 
 <template>
   <div >
-    <b-navbar  toggleable="lg" type="dark" variant="info" position="fixed">
+    <b-navbar  toggleable="lg" type="dark" variant="info"  fixed="top">
       <b-navbar variant="faded" type="light">
         <b-navbar-brand href="#">
           <img src="../assets/logo.png" class="d-inline-block align-top " alt="Kitten">
@@ -22,9 +22,16 @@
                6) Virtual face-to-face IT support
            </div>
           </b-modal>
-          <b-nav-item href="#footer" >ContactUs</b-nav-item>
-          <b-nav-item class="mb-2" variant="primary" @click="$bvToast.show('example-toast')">GetPrice</b-nav-item>
-          <b-toast id="example-toast" title="" static no-auto-hide>
+          <b-nav-item @click="$bvToast.show('example-toast')">ContactUs</b-nav-item>
+          <b-toast id="example-toast" title="BBDL LLC USA" static no-auto-hide><div class="toast">
+            <h3>17018 Thirsk Pl</h3><br> <h4>Richmond, TX 77407 USA </h4><br><h5>phone: 713-302-9971</h5> <br><li>bbl_llc@hotmail.com</li></div>
+            </b-toast>
+            
+
+
+
+          <b-nav-item class="mb-2" variant="primary" @click="$bvToast.show('second-toast')">GetPrice</b-nav-item>
+          <b-toast id="second-toast" title="SEND US REQUIREMENTS" static no-auto-hide>
             <form>
               <div class="form-group">
                 <label for="exampleFormControlInput1">Email address</label>
@@ -52,19 +59,16 @@
   
         <!-- Right aligned nav items -->
         <b-navbar-nav class="ml-auto">
-          <b-nav-form>
-            <b-form-input size="sm" class="mr-sm-2" placeholder="Search"></b-form-input>
-            <b-button size="sm" class="my-2 my-sm-0" type="submit">Search</b-button>
-          </b-nav-form>
+     
   
           <b-nav-item-dropdown right>
             <!-- Using 'button-content' slot -->
             <template #button-content>
-              <em>User</em>
+              <em >User</em>
             </template>
-            <b-dropdown-item @click="show('example-toas')">Login</b-dropdown-item>
-            <b-dropdown-item href="#">Profile</b-dropdown-item>
-            <b-dropdown-item href="#">Sign Out</b-dropdown-item>
+            <b-dropdown-item @click="show('example-toas')">LogIn</b-dropdown-item>
+            <b-dropdown-item @click="show('example-toas')">SignUp</b-dropdown-item>
+       
           </b-nav-item-dropdown>
         </b-navbar-nav>
       </b-collapse>
@@ -81,11 +85,18 @@
 <style  scoped>
 
 .d-inline-block{
-  height: 90px;
+  height: 80px;
   width: 160px;
 
 
 }
 
+.toast{
+  text-align: center;
+}
+img{
+ color: rgb(241, 232, 239);
+ 
+}
 
 </style> 

@@ -2,7 +2,7 @@
   <div>
 
 <Navbar/>
-<login/>
+
 <Carousel />
 <br>
 <Page/>
