@@ -3,10 +3,8 @@
 <!-- Footer -->
 <footer class=" footer  text-center text-white" id="footer">
     <!-- Grid container -->
-    <div class="container p-4">
-        <h3 >Follow Us </h3>
-      <!-- Section: Social media -->
- 
+    <!-- <div class="container p-4"> -->
+        <!-- <h3 >Follow Us </h3>
         <a target="_blank" href="https://www.facebook.com/buddha2042/">
           <img src="../assets/facebook.png">
          </a>
@@ -19,14 +17,14 @@
          </a> 
          <a target="_blank" href="https://www.twitter.com/buddha.kharel/">
           <img class="youtube" src="../assets/youtube.png">
-         </a>
-        </div>
+         </a> -->
+        <!-- </div> -->
 
       <!-- Section: Social media -->
   
   
 
-        <p> <span> <a class="link" @click="$bvToast.show('second-toast')">Careers</a>  |  <a class="link" v-b-modal.modal-1 >Team</a>  |  <a class="link" @click="$bvToast.show('example-toast')" >Locations</a> |  <a class="link" href="#d-block">Clients</a></span> <br/><span>Phone Number: +1 800-2333-9971</span><br />
+        <p> <span> <a class="link" href="#" >Careers</a>  |  <a class="link" href="" >Team</a>  |  <a class="link" href="" @click="$bvModal.show('bv-modal-contactus')" >Locations</a> |  <a class="link" href="#d-block">Clients</a></span> <br/><span>Phone Number: +1 800-2333-9971</span><br />
           <span> <a href="#">www.bobbyanddev.com</a></span>  <br/>Email: info@bobbyanddev.com
  </p>
       <!-- Section: Text -->
@@ -94,6 +92,9 @@ img{
 }
 .youtube{
   height: 54px;
+}
+P{
+color: rgb(34, 3, 63);
 }
 
 

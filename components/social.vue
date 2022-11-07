@@ -43,7 +43,8 @@
             </i></a>
        
           <div class="container p-4">
- 
+            <h5>FOLLOW US</h5>
+         
       <!-- Section: Social media -->
  
         <a target="_blank" href="https://www.facebook.com/buddha2042/">
@@ -210,8 +211,8 @@ h1, h2, h3, h4, h5, h6, p{
 
 .follow{
   position:fixed;
-  right:20px;
-  bottom:10px;
+  right:10px;
+  bottom:5px;
 }
 .follow img {
     width: 40px;
@@ -269,6 +270,8 @@ p.para {
  .logo-container{
   text-align: center; 
  }
-  
+  h5{
+    color: #5e144b;
+  }
 
 </style>

@@ -12,8 +12,8 @@
       <b-collapse id="nav-collapse" is-nav>
         <b-navbar-nav>
           <b-nav-item v-b-modal.modal-1>OurServices</b-nav-item>
-          <b-modal id="modal-1" title="Our Services">
-            <div class="">
+          <b-modal id="modal-1" title="Our Services ">
+            <div class="ourservices">
                1) Streamlined automation via machine learning <br>
                2) Shopping Cart / Online Ordering System / Online Payments <br>
                3) Web Application / Business Software <br>
@@ -22,18 +22,12 @@
                6) Virtual face-to-face IT support
            </div>
           </b-modal>
-          <b-nav-item @click="$bvToast.show('example-toast')">ContactUs</b-nav-item>
-          <b-toast id="example-toast" title="BBDL LLC USA" static no-auto-hide><div class="toast">
-            <h3>17018 Thirsk Pl</h3><br> <h4>Richmond, TX 77407 USA </h4><br><h5>phone: 713-302-9971</h5> <br><li>bbl_llc@hotmail.com</li></div>
-            </b-toast>
-            
-
-
-
-          <b-nav-item class="mb-2" variant="primary" @click="$bvToast.show('second-toast')">GetPrice</b-nav-item>
-          <b-toast id="second-toast" title="SEND US REQUIREMENTS" static no-auto-hide>
-            <form>
-              <div class="form-group">
+          <b-nav-item @click="$bvModal.show('bv-modal-contactus')" >ContactUs</b-nav-item>
+          <div>
+    <b-nav-item v-b-toggle.sidebar-1 >GetPrice</b-nav-item>
+    <b-sidebar id="sidebar-1" title=" SEND REQUIREMENTS" shadow>
+      <div class="px-1 py-4">
+        <div class="form-group">
                 <label for="exampleFormControlInput1">Email address</label>
                 <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
               </div>
@@ -49,30 +43,35 @@
               </div>
              
               <div class="form-group">
-                <label for="exampleFormControlTextarea1">Please write in detail</label>
+                <label for="exampleFormControlTextarea1">Please write more  in details</label>
                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                <button >send</button>
+                
               </div>
-            </form>
-          </b-toast>
+               <button type="button" class="btn btn-primary btn-lg btn-block">Send</button>
+        <b-img src="../assets/logo.png" fluid thumbnail></b-img>
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2022 Copyright:
+      <a class="text-white" href="https://mdbootstrap.com/">BBDL LLC USA </a>
+    </div>
+       
+      </div>
+    </b-sidebar>
+  </div>
+
+            
         </b-navbar-nav>
   
         <!-- Right aligned nav items -->
         <b-navbar-nav class="ml-auto">
-     
-  
-          <b-nav-item-dropdown right>
-            <!-- Using 'button-content' slot -->
-            <template #button-content>
-              <em >User</em>
-            </template>
-            <b-dropdown-item href="LoginVue">LogIn</b-dropdown-item>
-            <b-dropdown-item @click="show('example-toas')">SignUp</b-dropdown-item>
+          <button type="button" class="btn btn-primary" value="Primary" @click="$bvModal.show('bv-modal-signup')">SingUp</button>
+          <button type="button" class="btn btn-dark" @click="$bvModal.show('bv-modal-signin')">Login</button>
+          </b-navbar-nav>
        
-          </b-nav-item-dropdown>
-        </b-navbar-nav>
+
+       
       </b-collapse>
     </b-navbar>
+    
   </div>
 </template>
 
@@ -97,5 +96,10 @@
 img{
 
 }
+.ourservices{
+  background-color: rgb(212, 77, 227);
+}
+
+
 
 </style> 
