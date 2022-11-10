@@ -5,15 +5,15 @@
     <div class="container mb-4" id="why choose us">
     <div class="row vertical-center">
       <div class="col-md-5 mb-2 order-2 order-md-1 text-center">
-        <h2 style="color: rgb(30, 37, 173)">Why Choose BBDL?</h2>
+        <h2 style="color: rgb(30, 37, 173)">Why Choose B&D?</h2>
         <p style="color: green"> 
          You know the importance of reliable IT for your company. So why work with us?
    
-         BBDL can help your business be more productive and efficient as we put the tools in place that will guarantee you more uptime.
+         B&D can help your business be more productive and efficient as we put the tools in place that will guarantee you more uptime.
          
          We can help protect your business against potential disasters that could damage your company’s IT assets and cause devastating data loss.
          
-         BBDL cares about building a lasting relationship with you and your business. With us as your partner, you know you have an IT company you can truly rely on.
+         B&D cares about building a lasting relationship with you and your business. With us as your partner, you know you have an IT company you can truly rely on.
          
          We’re a trusted local company with fast response times and expert technicians who are friendly and responsive.
          

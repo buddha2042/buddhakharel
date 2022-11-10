@@ -103,11 +103,12 @@
 }
 
 .a-block{
-   background-color: bisque;
+   background-color: rgb(41, 164, 16);
 }
 
 .loginbutton{
-   background-color: rgb(177, 177, 218);
+   background-color: rgb(20, 20, 229);
+   color: aliceblue;
 }
 
 .b-block{
