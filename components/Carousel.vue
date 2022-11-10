@@ -2,7 +2,7 @@
     <b-carousel
       id="d-block"
       v-model="slide"
-      :interval="4000"
+      :interval="3000"
       controls
       indicators
       background="#ababab"
@@ -17,6 +17,7 @@
       <b-carousel-slide 
         caption="WELCOME TO B&D "
         text="we are here to help your business grow "
+      
         img-src="https://source.unsplash.com/random?landscape,mountain, jungle "  >
       </b-carousel-slide>
         

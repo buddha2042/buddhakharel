@@ -2,12 +2,15 @@
   <div>
 
 <Navbar/>
+
 <login/>
 <Carousel />
-<br>
+
 <Page/>
-<social/>
+
+<Videobackground/>
 <Footer/>
+
 
 </div>
 </template>

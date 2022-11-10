@@ -1,7 +1,7 @@
 
 <template>
   <div >
-    <b-navbar  toggleable="lg" type="dark" variant="info"  fixed="top">
+    <b-navbar  toggleable="lg" type="dark" variant="info"  fixed="top" >
       <b-navbar variant="faded" type="light">
         <b-navbar-brand href="#">
           <img src="../assets/bobby-dev-low-resolution.png" class="d-inline-block align-top " alt="Kitten">
@@ -12,7 +12,7 @@
   
       <b-collapse id="nav-collapse" is-nav>
         <b-navbar-nav>
-          <b-nav-item v-b-modal.modal-1 active>OurServices</b-nav-item>
+          <b-nav-item hovo:ripple="ture" v-b-modal.modal-1 active>OurServices</b-nav-item>
           <b-modal id="modal-1" title="Our Services ">
             <div class="ourservices">
                1) Streamlined automation via machine learning <br>

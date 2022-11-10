@@ -27,24 +27,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   
  <b-modal id="bv-modal-signup" hide-footer title="NEW CLIENT REGISTER">
    
