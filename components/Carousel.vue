@@ -17,19 +17,21 @@
       <b-carousel-slide 
         caption="WELCOME TO B&D "
         text="we are here to help your business grow "
-      
         img-src="https://source.unsplash.com/random?landscape,mountain, jungle "  >
       </b-carousel-slide>
         
       <b-carousel-slide
       caption="LET US HELP YOUR BUSINESS "
-      text="We inspire clients to make bolder choices with creativity, design, and analysis. We help envision your future, build the business case and articulate the plan to get you there. By reimagining your marketing strategy, elevating the way you sell to and interact with customers, and optimizing insights from data, we orchestrate personalized and differentiating experiences at scale. "
-      img-src="https://source.unsplash.com/random?city, kathmandu, houston, singapore, dubai" ></b-carousel-slide>
+      text=" We help envision your future, build the business case and articulate the plan to get you there. "
+      img-src="https://source.unsplash.com/random?city, kathmandu, houston, singapore, dubai" >
+      </b-carousel-slide>
 
-    <b-carousel-slide
+      <b-carousel-slide
     caption="COMING NEW SERVICES THAT  "
-    text="provides audit & assurance, consulting, risk and financial advisory, risk management, tax, and related services to select clients. "
-    img-src="https://source.unsplash.com/random?office, desktop, sunset, sunrise,  meeting "></b-carousel-slide>
+    text="provides audit & assurance, consulting, risk and financial advisory, risk management, etc... "
+    img-src="https://source.unsplash.com/random?office, desktop, sunset, sunrise,  meeting ">
+      </b-carousel-slide>
+      
     </div>
     </b-carousel>
 
