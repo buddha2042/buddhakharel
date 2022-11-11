@@ -9,6 +9,7 @@
 <Page/>
 
 <Videobackground/>
+<social/>
 <Footer/>
 
 
