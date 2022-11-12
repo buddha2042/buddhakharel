@@ -1,0 +1,23 @@
+{
+  "Carousel": {
+    "description": "Auto imported from components/Carousel.vue"
+  },
+  "Footer": {
+    "description": "Auto imported from components/Footer.vue"
+  },
+  "Navbar": {
+    "description": "Auto imported from components/Navbar.vue"
+  },
+  "Page": {
+    "description": "Auto imported from components/Page.vue"
+  },
+  "Videobackground": {
+    "description": "Auto imported from components/Videobackground.vue"
+  },
+  "Login": {
+    "description": "Auto imported from components/login.vue"
+  },
+  "Social": {
+    "description": "Auto imported from components/social.vue"
+  }
+}
