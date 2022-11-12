@@ -1,0 +1,63 @@
+{
+  "name": "vue-responsive-video-background-player",
+  "version": "2.3.1",
+  "description": "Play your own videos in background responsively",
+  "main": "./dist/vue-responsive-video-background-player.umd.js",
+  "unpkg": "./dist/vue-responsive-video-background-player.umd.js",
+  "module": "./dist/vue-responsive-video-background-player.mjs",
+  "exports": {
+    ".": {
+      "import": "./dist/vue-responsive-video-background-player.mjs",
+      "require": "./dist/vue-responsive-video-background-player.umd.js"
+    }
+  },
+  "private": false,
+  "scripts": {
+    "build:dist": "LIB_NAME=dist vite build",
+    "build:demo": "LIB_NAME=demo vite build",
+    "build": "npm run build:dist && npm run build:demo",
+    "publish": "npm run build && npm publish"
+  },
+  "files": [
+    "dist/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/avidofood/vue-responsive-video-background-player.git"
+  },
+  "keywords": [
+    "vue 3",
+    "vue3",
+    "vue",
+    "background",
+    "video background player",
+    "vue-responsive-videobg",
+    "vue-video-player",
+    "vue video player",
+    "video player",
+    "vue player",
+    "vue video",
+    "resolution switcher",
+    "tesla"
+  ],
+  "author": {
+    "name": "Philipp Mochine",
+    "email": "support@avidofood.com",
+    "url": "https://avidofood.com"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.0.3",
+    "eslint": "^8.23.1",
+    "eslint-config-avidofood": "^3.1.0",
+    "vite": "^3.0.9",
+    "vite-plugin-css-injected-by-js": "^2.0.4",
+    "vue": "^3.2.39"
+  },
+  "release": {
+    "branch": "master"
+  },
+  "publishConfig": {
+    "tag": "latest"
+  }
+}

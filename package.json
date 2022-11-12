@@ -1,0 +1,32 @@
+{
+  "name": "B&D-llc",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.2.0",
+    "@fortawesome/free-regular-svg-icons": "^6.2.0",
+    "@fortawesome/free-solid-svg-icons": "^6.2.0",
+    "@userfront/core": "^0.4.6",
+    "bootstrap": "^4.6.2",
+    "bootstrap-vue": "^2.22.0",
+    "core-js": "^3.25.3",
+    "mdb-vue-ui-kit": "^3.0.0",
+    "mdbvue": "^6.7.3",
+    "nuxt": "^2.15.8",
+    "pug": "^3.0.2",
+    "scss": "^0.2.4",
+    "toast": "^0.5.4",
+    "vue": "^2.7.10",
+    "vue-responsive-video-background-player": "^2.3.1",
+    "vue-server-renderer": "^2.7.10",
+    "vue-slick-carousel": "^1.0.6",
+    "vue-socials": "^1.1.0",
+    "vue-template-compiler": "^2.7.10"
+  }
+}
