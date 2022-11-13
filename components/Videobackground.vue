@@ -1,6 +1,5 @@
 <template>
-  <div>
-    <div  >
+ 
  <div class="carousel-inner"> 
    <div class="carousel-item active">
      <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
@@ -35,8 +34,7 @@
        </div>
      </div>
      </div>
-   </div>
-  </div>
+
 </template>
 
 <script>
@@ -53,9 +51,10 @@ h5{
 }
 video{
   height: 600px; 
+  max-height: fit-content;
   width: 100%;
   min-height: fit-content;
-  min-width: max-content;
+  min-width: fit-content;
 
 
 
@@ -195,11 +194,17 @@ video{
   font-weight: bold;
   text-transform: uppercase;
   cursor: pointer;
-  outline: none;
+
 }
 .sub:hover{
     color: #1fffc7;
     background: linear-gradient(45deg, rgba(234,110,72,1) 0%, rgba(188,26,99,1) 100%);
 }
 
+.carousel-inner{
+  max-height: fit-content;
+  @media screen { show:screen=same
+    
+  }
+}
 </style>
