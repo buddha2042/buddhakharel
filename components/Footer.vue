@@ -9,13 +9,13 @@
           <img src="../assets/facebook.png">
          </a>
          
-         <a target="_blank" href="https://www.instagram.com/blaustern_fotografie/">
+         <a target="_blank" href="https://www.twitter.com/buddha.kharel/">
           <img src="../assets/twitter.png">
          </a>
-         <a target="_blank" href="https://www.instagram.com/blaustern_fotografie/">
+         <a target="_blank" href="https://www.instagram.com/buddhakharel/">
           <img src="../assets/lindkin.png">
          </a> 
-         <a target="_blank" href="https://www.twitter.com/buddha.kharel/">
+         <a target="_blank" href="https://www.youtube.com/buddhakharel/">
           <img class="youtube" src="../assets/youtube.png">
          </a> 
         </div> 

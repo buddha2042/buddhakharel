@@ -97,6 +97,7 @@
 .container-fuild{
   display: inline-block;
   width: 100%;
+  overflow: hidden;
 
 
 }

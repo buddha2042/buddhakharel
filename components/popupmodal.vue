@@ -1,6 +1,6 @@
 <template>
   <div>
-    <video src="../assets/video4.mp4" type="video/mp4" autoplay muted>
+    <video src="../assets/video4.mp4" type="video/mp4" loop="true" autoplay="autoplay" controls="controls" playsinline id="vid">
     </video>
 
 
@@ -40,6 +40,8 @@
 
 <script>
   export default {
+    
+    }
     
   }
 </script>
@@ -179,6 +181,7 @@ video {
   height: 600px;
   width: 100%;
   display: inline-block;
+  overflow: hidden;
 }
 
 </style>
