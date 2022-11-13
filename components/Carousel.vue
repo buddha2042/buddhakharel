@@ -69,19 +69,24 @@
 <style  scoped>
 
 .first{
-max-height: 400px;
-min-height: fit-content;
-
+  max-height: 400px;
+  min-height: fit-content;
+  height: 100vh; /* Fallback for browsers that do not support Custom Properties */
+  height: calc(var(--vh, 1vh) * 100);
 
 }
 .second{
   max-height: 400px;
   min-height: fit-content;
+  height: 100vh; /* Fallback for browsers that do not support Custom Properties */
+  height: calc(var(--vh, 1vh) * 100);
 
 }
 .third{
   max-height: 400px;
   min-height: fit-content;
+  height: 100vh; /* Fallback for browsers that do not support Custom Properties */
+  height: calc(var(--vh, 1vh) * 100);
 
     
   }
