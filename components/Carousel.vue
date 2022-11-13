@@ -1,5 +1,5 @@
 <template>
-  <div class="container-fuild">
+  <div class="carousel-inner" data-ride="carousel">
     <b-carousel
       id="d-block"
       v-model="slide"
@@ -20,19 +20,19 @@
         caption="WELCOME TO B&D "
         text="we are here to help your business grow "
       
-        img-src="https://source.unsplash.com/random?cityhall, congress, dc, new-york, goveronment building "  >
+        img-src="https://source.unsplash.com/random?cityhall, congress, dc, new-york, goveronment building ">
       </b-carousel-slide>
         
       <b-carousel-slide class="second"
       caption="LET US HELP YOUR BUSINESS "
       text=" We help envision your future, build the business case and articulate the plan to get you there. "
-      img-src="https://source.unsplash.com/random?techonology, information techonology, cloud computing, laptop, computer,  " >
+      img-src="https://source.unsplash.com/random?techonology, information techonology, cloud computing, laptop, computer,  " :class="d-blocl" >
       </b-carousel-slide>
 
       <b-carousel-slide class="third"
     caption="COMING NEW SERVICES THAT  "
     text="provides audit & assurance, consulting, risk and financial advisory, risk management, etc... "
-    img-src="https://source.unsplash.com/random? river, hill, gungle, mountian, beach, mount everest">
+    img-src="https://source.unsplash.com/random? river, hill, gungle, mountian, beach, mount everest" :class="d-block">
       </b-carousel-slide>
       
     </div>
@@ -98,7 +98,7 @@
   display: inline-block;
   width: 100%;
   overflow: hidden;
-
+  
 
 }
 </style>

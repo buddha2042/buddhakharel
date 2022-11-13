@@ -1,7 +1,7 @@
 <template>
-  <div>
-    <video src="../assets/video4.mp4" type="video/mp4" loop="true" autoplay="autoplay" controls="controls" playsinline id="vid">
-    </video>
+  <!-- <div>
+    <video src="../assets/video4.mp4" type="video/mp4" loop="true" autoplay="autoplay" controls="controls"  >
+    </video> -->
 
 
 <form class="main" >
