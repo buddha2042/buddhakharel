@@ -203,7 +203,7 @@ h1, h2, h3, h4, h5, h6, p{
 }
 
 .follow{
-  position:fixed;
+
   right:10px;
   bottom:5px;
 }

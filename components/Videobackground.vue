@@ -1,15 +1,8 @@
 <template>
- 
- <div class="container " > 
-   <div class="carousel-item active ">
-     <!-- <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop"  >
-       <source src="../assets/video4.mp4" type="video/mp4" >
-       </video>
-   -->
-     <div class="container ">
-       <div class="carousel-caption" >
-         <form class="main" >
-          
+
+<form class="main" >
+           <div class="carousel-item active ">
+           <div class="carousel-caption" >
            <h5 class="head">Get A Free Quote Today </h5><br>
            <input type="text" class="" name="Full name" placeholder="Your Business Name.." ><br><br>
            <input type="text" id="lname" name="lastname" placeholder="Phone Number & Email"><br><br><br>
@@ -29,12 +22,14 @@
            <h6 aria-controls="red" style="color: rgba(228, 227, 237, 0.872)"> More Details</h6>
            <textarea class="inpt" name="subject" placeholder="Please provide us more detail about Requirement" style="height:100px"></textarea> <br>
            <button class="sign-up-l" @click="$bvModal.show('bv-modal-signin')" >Get Started</button>
-         </form>
+        
          </div>
        </div>
-     </div>
-     </div>
+    </form>
 
+     
+      
+  
 </template>
 
 <script>
