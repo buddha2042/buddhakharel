@@ -2,7 +2,7 @@
  
  <div class="container"> 
    <div class="carousel-item active">
-     <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" responsive >
+     <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop"  >
        <source src="../assets/video4.mp4" type="video/mp4" >
        </video>
   
@@ -55,6 +55,7 @@ video{
   width: 100%;
   min-height: fit-content;
   min-width: fit-content;
+  max-width: 100%;
 
 
 
