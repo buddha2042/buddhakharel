@@ -8,8 +8,8 @@
 <Carousel />
 
 <Page/>
-
-<Videobackground/>
+<!-- <requirements/> -->
+<popupmodal/>
 <social/>
 <Footer/>
 

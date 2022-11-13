@@ -26,13 +26,13 @@
       <b-carousel-slide class="second"
       caption="LET US HELP YOUR BUSINESS "
       text=" We help envision your future, build the business case and articulate the plan to get you there. "
-      img-src="https://source.unsplash.com/random?city, kathmandu, houston, singapore, dubai" >
+      img-src="https://source.unsplash.com/random?techonology, information techonology, cloud computing, laptop, computer,  " >
       </b-carousel-slide>
 
       <b-carousel-slide class="third"
     caption="COMING NEW SERVICES THAT  "
     text="provides audit & assurance, consulting, risk and financial advisory, risk management, etc... "
-    img-src="https://source.unsplash.com/random? river, hill, gungle, mountian, beach, ">
+    img-src="https://source.unsplash.com/random? river, hill, gungle, mountian, beach, mount everest">
       </b-carousel-slide>
       
     </div>

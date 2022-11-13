@@ -1,4 +1,7 @@
 <template>
+  <div>
+    <img src="../assets/it.jpg" alt="Girl in a jacket">
+
 
 <form class="main" >
            <div class="carousel-item active ">
@@ -24,8 +27,10 @@
            <button class="sign-up-l" @click="$bvModal.show('bv-modal-signin')" >Get Started</button>
         
          </div>
-       </div>
-    </form>
+       </div>   
+    
+    </form> 
+   </div>
 
      
       
@@ -39,28 +44,9 @@
 </script>
 
 <style  scoped>
-h5{
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  color: rgb(164, 208, 208);
-  padding-top: 200px;
-}
-video{
-  max-height: 400px;
-  min-height: fit-content;
-  height: 100vh; /* Fallback for browsers that do not support Custom Properties */
-  height: calc(var(--vh, 1vh) * 100);
-  max-width: 100%;
-  width: 100%;
-
-}
 
 
 
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
 .main{
 
@@ -100,32 +86,7 @@ video{
   color: #C9D8F3;
   border-radius: 10px;
 }
-.ico{
-  padding-left: 70px;
-  position: relative;
-}
-.ico .fab{
-  position: absolute;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  line-height: 50px;
-  padding: 0 15px 0 15px;
-  background-color: #00000021;
-  border-radius: 10px 0 0 10px;
-}
-.hov1:hover{
-  background-color: #1b4192;
-  box-shadow: inset 0 3px 0 #00000033;
-}
-.hov2:hover{
-  background-color: #248ddd;
-  box-shadow: inset 0 3px 0 #00000033;
-}
-.hov3:hover{
-  background-color: #e93d26;
-  box-shadow: inset 0 3px 0 #00000033;
-}
+
 .sign-up-l{
   width: 50%;
   height: 32px;
@@ -197,14 +158,22 @@ video{
     background: linear-gradient(45deg, rgba(234,110,72,1) 0%, rgba(188,26,99,1) 100%);
 }
 
-.carousel-inner{
-  max-height: fit-content;
-  @media screen { show:screen=same
-    
-  }
-}
 .container{
   height: 600px;
+}
+
+img {
+  transform:
+    perspective(750px)
+    translate3d(0px, 0px, -250px)
+    rotateX(27deg)
+    scale(0.9, 0.9);
+  border-radius: 20px;
+  border: 5px solid #e6e6e6;
+  box-shadow: 0 70px 40px -20px rgba(0, 0, 0, 0.2);
+  transition: 0.4s ease-in-out transform;
+  height: 600px;
+  width: 100%;
 }
 
 </style>

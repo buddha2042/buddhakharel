@@ -2,8 +2,8 @@ export { default as Carousel } from '../../components/Carousel.vue'
 export { default as Footer } from '../../components/Footer.vue'
 export { default as Navbar } from '../../components/Navbar.vue'
 export { default as Page } from '../../components/Page.vue'
-export { default as Videobackground } from '../../components/Videobackground.vue'
 export { default as Login } from '../../components/login.vue'
+export { default as Popupmodal } from '../../components/popupmodal.vue'
 export { default as Social } from '../../components/social.vue'
 
 // nuxt/nuxt.js#8607

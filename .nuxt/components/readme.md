@@ -10,6 +10,6 @@ You can directly use them in pages and other components without the need to impo
 - `<Footer>` | `<footer>` (components/Footer.vue)
 - `<Navbar>` | `<navbar>` (components/Navbar.vue)
 - `<Page>` | `<page>` (components/Page.vue)
-- `<Videobackground>` | `<videobackground>` (components/Videobackground.vue)
 - `<Login>` | `<login>` (components/login.vue)
+- `<Popupmodal>` | `<popupmodal>` (components/popupmodal.vue)
 - `<Social>` | `<social>` (components/social.vue)

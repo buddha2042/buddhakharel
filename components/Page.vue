@@ -393,6 +393,13 @@ body {
     border-color: #eea236;
 } 
 
-
+#domestic-service-desk{
+    margin: auto;
+    margin-top: 100px;
+   box-shadow: 2px 2px 10px  #00000080;
+   transform: rotateZ(-180deg) rotateZ(0deg)  rotateX(180deg) rotateY(180deg) rotateX(360deg); 
+   transform-style: preserve-3d;
+   transition: all 2s;
+}
 
 </style>

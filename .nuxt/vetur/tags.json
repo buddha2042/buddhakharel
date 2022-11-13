@@ -11,11 +11,11 @@
   "Page": {
     "description": "Auto imported from components/Page.vue"
   },
-  "Videobackground": {
-    "description": "Auto imported from components/Videobackground.vue"
-  },
   "Login": {
     "description": "Auto imported from components/login.vue"
+  },
+  "Popupmodal": {
+    "description": "Auto imported from components/popupmodal.vue"
   },
   "Social": {
     "description": "Auto imported from components/social.vue"
