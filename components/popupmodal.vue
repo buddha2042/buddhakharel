@@ -1,6 +1,7 @@
 <template>
   <div>
-    <img src="../assets/it.jpg" alt="Girl in a jacket">
+    <video src="../assets/video4.mp4" type="video/mp4" autoplay muted>
+    </video>
 
 
 <form class="main" >
@@ -165,7 +166,7 @@
   height: 600px;
 }
 
-img {
+video {
   transform:
     perspective(750px)
     translate3d(0px, 0px, -250px)
@@ -177,6 +178,7 @@ img {
   transition: 0.4s ease-in-out transform;
   height: 600px;
   width: 100%;
+  display: inline-block;
 }
 
 </style>

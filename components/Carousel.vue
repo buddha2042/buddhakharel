@@ -94,5 +94,11 @@
   padding-bottom: 50px;
   padding-top: 80px
 }
+.container-fuild{
+  display: inline-block;
+  width: 100%;
+
+
+}
 </style>
 
