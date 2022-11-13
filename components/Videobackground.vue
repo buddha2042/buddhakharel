@@ -1,6 +1,6 @@
 <template>
  
- <div class="container"> 
+ <div > 
    <div class="carousel-item active">
      <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop"  >
        <source src="../assets/video4.mp4" type="video/mp4" >
@@ -50,16 +50,16 @@ h5{
   padding-top: 200px;
 }
 video{
-  height: 600px; 
-  max-height: 600px;
-  width: 100%;
+  max-height: 400px;
   min-height: fit-content;
-  min-width: fit-content;
+  height: 100vh; /* Fallback for browsers that do not support Custom Properties */
+  height: calc(var(--vh, 1vh) * 100);
   max-width: 100%;
-
-
+  width: 100%;
 
 }
+
+
 
 *{
   margin: 0;
