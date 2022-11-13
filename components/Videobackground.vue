@@ -2,8 +2,8 @@
  
  <div class="carousel-inner"> 
    <div class="carousel-item active">
-     <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-       <source src="../assets/video4.mp4" type="video/mp4">
+     <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" responsive >
+       <source src="../assets/video4.mp4" type="video/mp4" >
        </video>
   
      <div class="container ">
@@ -51,7 +51,7 @@ h5{
 }
 video{
   height: 600px; 
-  max-height: fit-content;
+  max-height: 600px;
   width: 100%;
   min-height: fit-content;
   min-width: fit-content;
