@@ -1,6 +1,6 @@
 <template>
  
- <div class="carousel-inner"> 
+ <div class="container"> 
    <div class="carousel-item active">
      <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" responsive >
        <source src="../assets/video4.mp4" type="video/mp4" >
