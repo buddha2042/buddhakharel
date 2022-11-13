@@ -1,5 +1,5 @@
 <template>
-  <div class="image-slider">
+  <div class="container-fuild">
     <b-carousel
       id="d-block"
       v-model="slide"
@@ -94,7 +94,5 @@
   padding-bottom: 50px;
   padding-top: 80px
 }
-
-
 </style>
 

@@ -58,7 +58,7 @@
  transition: all 2s;
 }
 .main:hover {
-  transform:rotateX(0deg) rotateX(0deg) rotateZ(0deg) ; 
+  transform: rotate3d(30deg) ; 
 }
 .sign-up{
   width: 25%;
@@ -68,11 +68,12 @@
 }
 .head{
   color: #C9D8F3;
-  font-size: 30px;
+  font-size: 20px;
   text-align: center;
   padding: 20px 0;
   background-image: linear-gradient(135deg, #007991 30%, #78ffd6 90%);
   box-shadow: 2px 2px 10px  #00000080;
+
 }
 .btn{
 
@@ -105,6 +106,7 @@
   margin: 20px 10%;
   position: relative;
   border-bottom: 1px solid #FD2E62;
+  background-color: #cbeff7;
 }
 .inpt input{
   width: 100%;
@@ -157,6 +159,7 @@
     color: #1fffc7;
     background: linear-gradient(45deg, rgba(234,110,72,1) 0%, rgba(188,26,99,1) 100%);
 }
+
 
 .container{
   height: 600px;

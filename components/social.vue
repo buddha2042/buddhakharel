@@ -51,10 +51,11 @@
          <a target="_blank" href="https://www.instagram.com/buddha2042/">
           <img src="../assets/lindkin.png">
          </a> 
-         </div> --> </div> 
+         </div> -->
+         </div> 
        </div> 
        
-    </div>
+
 </template>
 
 <script>
