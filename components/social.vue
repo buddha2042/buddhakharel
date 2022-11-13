@@ -1,10 +1,10 @@
 <template>
     <div>
         <div class="  logo-container "  >
-          <div class="bg-image" 
-     style="background-image: href(https://source.unsplash.com/? office, computer, laptop) ;
-            ">
-
+            <!-- <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop"  >
+       <source src="../assets/video4.mp4" type="video/mp4" >
+       </video> -->
+   
           
             <p class="para"> OUR SISTER COMPANY  </p>
           
@@ -267,4 +267,15 @@ p.para {
     color: #5e144b;
   }
 
+
+  video{
+    max-height: 400px;
+    min-height: fit-content;
+    height: 100vh; /* Fallback for browsers that do not support Custom Properties */
+    height: calc(var(--vh, 1vh) * 100);
+    max-width: 100%;
+    width: 100%;
+  
+  }
+  
 </style>
