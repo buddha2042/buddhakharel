@@ -5,8 +5,8 @@
      style="background-image: href(https://source.unsplash.com/? office, computer, laptop) ;
             ">
 
-            <h1 class="Logos">OUR COMPANIES</h1>
-            <p class="para">ACROSS THE WORLD</p>
+          
+            <p class="para"> OUR SISTER COMPANY  </p>
           
             <ul>
               <li>
@@ -26,15 +26,7 @@
                   </a>
                 </div>
               </li>
-              <li>
-                <div class="logo-holder logo-4">
-                  <a href="">
-                    <h3>USA-NEPAL</h3>
-                    <p>non profit org</p>
-                  </a>
-                </div>
-              </li>
-        
+              
              
             </ul>
           </div>
@@ -42,10 +34,10 @@
             <a href="https://facebook.com/buddha2042" target="_blank"><i class="fb_logo img sp_ezjerk sx_440431">
             </i></a>
        
-          <div class="container p-4">
+          <!-- <div class="container p-4">
             <h5>FOLLOW US</h5>
          
-      <!-- Section: Social media -->
+ 
  
         <a target="_blank" href="https://www.facebook.com/buddha2042/">
           <img src="../assets/facebook.png">
@@ -59,8 +51,8 @@
          <a target="_blank" href="https://www.instagram.com/buddha2042/">
           <img src="../assets/lindkin.png">
          </a> 
-         </div>  </div>
-       </div>
+         </div> --> </div> 
+       </div> 
        
     </div>
 </template>
@@ -84,6 +76,7 @@ h1, h2, h3, h4, h5, h6, p{
     padding: 0;
     list-style: none;
     display:inline-block;
+    padding-top: 0%;
 }
 .logo-container ul li {
     width: 300px;
@@ -92,7 +85,7 @@ h1, h2, h3, h4, h5, h6, p{
     border-radius: 10px;
     margin: 10px;
     float: left;
-    padding:20px;
+
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.25);    
     display: flex;
     align-items: center;
@@ -262,10 +255,10 @@ p.para {
     text-align: center;
     font-size: 16px;
     margin-bottom: 20px;
-    letter-spacing: 30px;
+    letter-spacing: 3px;
     font-family: 'Lora', serif;
     padding-top: 5px;
-    color: #333333;
+    color: #230c92;
 }
  .logo-container{
   text-align: center; 

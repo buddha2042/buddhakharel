@@ -1,10 +1,10 @@
 
 <template>
-  <div >
+  <div class="navbar">
     <b-navbar  toggleable="lg" type="dark" variant="info"  fixed="top" >
-      <b-navbar variant="faded" type="light">
+      <b-navbar variant="info" type="dark">
         <b-navbar-brand href="#">
-          <img src="../assets/bobby-dev-low-resolution.png" class="d-inline-block align-top " alt="Kitten">
+          <img src="../assets/bobby-dev-low-resolution.png" class="d-inline-block  " alt="Kitten">
           <h3> B&D USA LLC</h3>
         </b-navbar-brand>
       </b-navbar>
@@ -72,7 +72,7 @@
        
       </b-collapse>
     </b-navbar>
-    
+
   </div>
 </template>
 
@@ -104,6 +104,9 @@ img{
 H3{
   color: rgb(145, 54, 8);
 }
-
+.navbar{
+  padding-bottom: 0%;
+  padding-top: 0%;
+}
 
 </style> 

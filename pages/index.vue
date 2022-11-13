@@ -4,6 +4,7 @@
 <Navbar/>
 
 <login/>
+<br><br>
 <Carousel />
 
 <Page/>

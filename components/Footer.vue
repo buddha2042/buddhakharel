@@ -3,8 +3,8 @@
 <!-- Footer -->
 <footer class=" footer  text-center text-white" id="footer">
     <!-- Grid container -->
-    <!-- <div class="container p-4"> -->
-        <!-- <h3 >Follow Us </h3>
+  <div class="container p-4"> 
+        <h5 >Follow Us </h5>
         <a target="_blank" href="https://www.facebook.com/buddha2042/">
           <img src="../assets/facebook.png">
          </a>
@@ -17,8 +17,8 @@
          </a> 
          <a target="_blank" href="https://www.twitter.com/buddha.kharel/">
           <img class="youtube" src="../assets/youtube.png">
-         </a> -->
-        <!-- </div> -->
+         </a> 
+        </div> 
 
       <!-- Section: Social media -->
   
@@ -90,12 +90,24 @@ img{
   height: 40px;
   width: 40px;
   padding: .5%;
+  border: 2px solid #3F51B5;
+  border-radius: 100%;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
+  padding: 5px;
+  background: #fff;
 }
-.youtube{
-  height: 54px;
-}
+
 P{
 color: rgb(34, 3, 63);
+}
+.follow img {
+  width: 40px;
+  height: 40px;
+  border: 2px solid #3F51B5;
+  border-radius: 100%;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
+  padding: 5px;
+  background: #fff;
 }
 
 
