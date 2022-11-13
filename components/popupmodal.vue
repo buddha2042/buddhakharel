@@ -7,8 +7,9 @@
 <form class="main" >
            <div class="carousel-item active ">
            <div class="carousel-caption" >
-           <h5 class="head">Get A Free Quote Today </h5><br>
-           <input type="text" class="" name="Full name" placeholder="Your Business Name.." ><br><br>
+           <!-- <h5 class="head">Get A Free Quote Today </h5><br> -->
+           <b-button class="sub" v-b-toggle.sidebar-1 active>Get A Free Quote Today</b-button>
+           <!-- <input type="text" class="" name="Full name" placeholder="Your Business Name.." ><br><br>
            <input type="text" id="lname" name="lastname" placeholder="Phone Number & Email"><br><br><br>
            <h6 aria-controls="red"> Where Is Your Business Located ? </h6>
            
@@ -24,8 +25,8 @@
            <option value="canada">Not Listed.. Please Write in below box</option>
            </select><br>
            <h6 aria-controls="red" style="color: rgba(228, 227, 237, 0.872)"> More Details</h6>
-           <textarea class="inpt" name="subject" placeholder="Please provide us more detail about Requirement" style="height:100px"></textarea> <br>
-           <button class="sign-up-l" @click="$bvModal.show('bv-modal-signin')" >Get Started</button>
+           <textarea class="inpt" name="subject" placeholder="Please provide us more detail about Requirement" style="height:100px"></textarea> <br> -->
+           <!-- <b-button class="sub" @click="$bvModal.show('bv-modal-contactus')" >Get Started</b-button>  -->
         
          </div>
        </div>   
@@ -56,7 +57,7 @@
   margin: auto;
   margin-top: 100px;
  box-shadow: 2px 2px 10px  #00000080;
- transform: rotateZ(-180deg) rotateZ(0deg)  rotateX(180deg) rotateY(180deg) rotateX(360deg); 
+
  transform-style: preserve-3d;
  transition: all 2s;
 }
@@ -135,7 +136,7 @@
 .sub{
   width: 80%;
   height: 40px;
-  margin: 20px 10%;
+
   background: linear-gradient(
       60deg,
       #f79533,
@@ -170,15 +171,15 @@
 
 video {
   transform:
-    perspective(750px)
-    translate3d(0px, 0px, -250px)
-    rotateX(27deg)
+    perspective(1000px)
+    translate3d(0px, -10px, 0px)
+    rotateX(25deg)
     scale(0.9, 0.9);
   border-radius: 20px;
   border: 5px solid #e6e6e6;
-  box-shadow: 0 70px 40px -20px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 70px 40px -20px rgba(0.5, 0, 0, 0.2);
   transition: 0.4s ease-in-out transform;
-  height: 600px;
+  height: 100%px;
   width: 100%;
   display: inline-block;
   overflow: hidden;
