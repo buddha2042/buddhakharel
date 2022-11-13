@@ -2,10 +2,10 @@
  
  <div > 
    <div class="carousel-item active">
-     <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop"  >
+     <!-- <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop"  >
        <source src="../assets/video4.mp4" type="video/mp4" >
        </video>
-  
+   -->
      <div class="container ">
        <div class="carousel-caption" >
          <form class="main" >
