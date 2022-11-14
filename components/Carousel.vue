@@ -21,19 +21,19 @@
         caption="WELCOME TO B&D "
         text="we are here to help your business grow "
       
-        img-src="@/assets/it1.jpg" >
+        img-src="../assets/it1.jpg" >
       </b-carousel-slide>
         
       <b-carousel-slide class="second"
       caption="LET US HELP YOUR BUSINESS "
       text=" We help envision your future, build the business case and articulate the plan to get you there. "
-      img-src="@/assets/it.jpg">
+      img-src="../assets/it.jpg">
       </b-carousel-slide>
 
       <b-carousel-slide class="third"
     caption="COMING NEW SERVICES THAT  "
     text="provides audit & assurance, consulting, risk and financial advisory, risk management, etc... "
-    img-src="@/assets/it2.jpg">
+    img-src="../assets/it2.jpg">
       </b-carousel-slide>
       
     </div>

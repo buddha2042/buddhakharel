@@ -20,7 +20,7 @@
          No matter the industry or size of your business, we can offer customized solutions for your IT needs that are designed with you in mind. </p>
       </div>
       <div class="col-md-6 offset-md-1 mb-2 order-1 order-md-2">
-       <img src="@/assets/back3.jpg" class="img-fluid shadow" id="why">
+       <img src="../assets/back3.jpg" class="img-fluid shadow" id="why">
       </div>
     </div>
    </div>
@@ -31,7 +31,7 @@
     <div class="container-fuild">
       <div class="row vertical-center">
         <div class="col-md-6 mb-2">
-          <img src="@/assets/back1.jpg" class="img-fluid shadow">
+          <img src="../assets/back1.jpg" class="img-fluid shadow">
         </div>
         <div class="col-md-5 offset-md-1 mb-2">
           <h2 class="mb-1">Our  Services </h2>
