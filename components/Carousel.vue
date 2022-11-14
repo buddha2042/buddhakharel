@@ -1,13 +1,14 @@
 <template>
-  <div class="carousel-inner" data-ride="carousel">
+  <div class="container-fuild" data-ride="carousel" >
     <b-carousel
-      id="d-block"
+      id=""
       v-model="slide"
       :interval="3000"
       controls
       indicators
       background="#ababab"
       img-width="100%"
+
 
      
       style="text-shadow: 1px 1px 2px #333;"
@@ -20,19 +21,19 @@
         caption="WELCOME TO B&D "
         text="we are here to help your business grow "
       
-        img-src="https://source.unsplash.com/random?cityhall, congress, dc, new-york, goveronment building ">
+        img-src="@/assets/it1.jpg" >
       </b-carousel-slide>
         
       <b-carousel-slide class="second"
       caption="LET US HELP YOUR BUSINESS "
       text=" We help envision your future, build the business case and articulate the plan to get you there. "
-      img-src="https://source.unsplash.com/random?techonology, information techonology, cloud computing, laptop, computer,  " :class="d-blocl" >
+      img-src="@/assets/it.jpg">
       </b-carousel-slide>
 
       <b-carousel-slide class="third"
     caption="COMING NEW SERVICES THAT  "
     text="provides audit & assurance, consulting, risk and financial advisory, risk management, etc... "
-    img-src="https://source.unsplash.com/random? river, hill, gungle, mountian, beach, mount everest" :class="d-block">
+    img-src="@/assets/it2.jpg">
       </b-carousel-slide>
       
     </div>
@@ -74,13 +75,15 @@
   height: 100vh; /* Fallback for browsers that do not support Custom Properties */
   height: calc(var(--vh, 1vh) * 100);
 
+
+
 }
 .second{
   max-height: 50vh;
   min-height: fit-content;
   height: 100vh; /* Fallback for browsers that do not support Custom Properties */
   height: calc(var(--vh, 1vh) * 100);
-
+  
 }
 .third{
   max-height: 50vh;
@@ -97,7 +100,8 @@
 .container-fuild{
   display: inline-block;
   width: 100%;
-  overflow: hidden;
+
+  
   
 
 }

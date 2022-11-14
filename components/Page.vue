@@ -20,7 +20,7 @@
          No matter the industry or size of your business, we can offer customized solutions for your IT needs that are designed with you in mind. </p>
       </div>
       <div class="col-md-6 offset-md-1 mb-2 order-1 order-md-2">
-       <img src="https://source.unsplash.com/600x500/? office, computer, laptop " class="img-fluid shadow" id="why choose us">
+       <img src="@/assets/back3.jpg" class="img-fluid shadow" id="why">
       </div>
     </div>
    </div>
@@ -31,7 +31,7 @@
     <div class="container-fuild">
       <div class="row vertical-center">
         <div class="col-md-6 mb-2">
-          <img src="https://source.unsplash.com/600x500/? business, computer, meeting " class="img-fluid shadow">
+          <img src="@/assets/back1.jpg" class="img-fluid shadow">
         </div>
         <div class="col-md-5 offset-md-1 mb-2">
           <h2 class="mb-1">Our  Services </h2>
@@ -70,7 +70,7 @@
           </div>
           <div class="col-md-6 offset-md-1 mb-2 order-1 order-md-2">
            <div class="col-md-5 mb-2 order-2 order-md-1"></div>
-           <img src="https://source.unsplash.com/600x500/? Software, " class="img-fluid shadow">
+           <img src="https://source.unsplash.com/600x500/? Software, business, small business" class="img-fluid shadow">
           </div>
         </div>
        </div>
@@ -275,4 +275,12 @@ body {
     border-radius: 10px;
    
   }
+  img{
+height: max-content;
+  }
+
+  #why{
+    height: 500px
+  }
+ 
 </style>
