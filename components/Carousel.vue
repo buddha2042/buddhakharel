@@ -1,17 +1,19 @@
 <template>
   <div class="container-fuild" data-ride="carousel" >
     <b-carousel
-      id=""
+      id="b-carousel"
       v-model="slide"
       :interval="3000"
       controls
       indicators
-      background="#ababab"
+      background="#rgb(5, 74, 87)"
       img-width="100%"
+
+     
 
 
      
-      style="text-shadow: 1px 1px 2px #333;"
+  
       @sliding-start="onSlideStart"
       @sliding-end="onSlideEnd"
     >
@@ -21,7 +23,8 @@
         caption="WELCOME TO B&D "
         text="we are here to help your business grow "
       
-        img-src="../assets/it1.jpg" >
+        img-src="../assets/it1.jpg"  
+        >
       </b-carousel-slide>
         
       <b-carousel-slide class="second"
@@ -70,7 +73,7 @@
 <style  scoped>
 
 .first{
-  max-height: 50vh;
+max-height: 60vh;
   min-height: fit-content;
   height: 100vh; /* Fallback for browsers that do not support Custom Properties */
   height: calc(var(--vh, 1vh) * 100);
@@ -79,14 +82,15 @@
 
 }
 .second{
-  max-height: 50vh;
+  max-height: 60vh;
   min-height: fit-content;
   height: 100vh; /* Fallback for browsers that do not support Custom Properties */
   height: calc(var(--vh, 1vh) * 100);
+
   
 }
 .third{
-  max-height: 50vh;
+  max-height: 60vh;
   min-height: fit-content;
   height: 100vh; /* Fallback for browsers that do not support Custom Properties */
   height: calc(var(--vh, 1vh) * 100);
@@ -100,10 +104,12 @@
 .container-fuild{
   display: inline-block;
   width: 100%;
+  background-color: rgb(5, 74, 87);
 
-  
-  
 
-}
+  }
+
+
+
 </style>
 

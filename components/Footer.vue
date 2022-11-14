@@ -25,7 +25,7 @@
   
 
         <p> <span> <a class="link" href="#" v-b-popover.hover.top="' Please Email Your latest  Resume : bbl_llc@hotmail.com  career@bobbyanddev.com'" >Careers</a>  |  <a class="link" href="" v-b-popover.hover.top="' CEO : Buddha Kharel'" >Team</a>  |  <a class="link" href="#" @click="$bvModal.show('bv-modal-contactus')" v-b-popover.hover.top="'USA | CANADA | INDIA | NEPAL'" >Locations</a> |  <a class="link" href="#d-block" v-b-popover.hover.top="'USAID | USPS  | DXC | TXDOF'">Clients</a></span> <br/><span>Phone Number: +1 800-2333-9971</span><br />
-          <span> <a href="#">www.bobbyanddev.com</a></span>  <br/>Email: info@bobbyanddev.com
+          <span> <a href="#">www.banitaus.com</a></span>  <br/>Email: info@banditaus.com
  </p>
       <!-- Section: Text -->
       <section class="mb-4">

@@ -20,7 +20,7 @@
          No matter the industry or size of your business, we can offer customized solutions for your IT needs that are designed with you in mind. </p>
       </div>
       <div class="col-md-6 offset-md-1 mb-2 order-1 order-md-2">
-       <img src="../assets/back3.jpg" class="img-fluid shadow" id="why">
+        <img src="https://source.unsplash.com/600x500/? Software, laptop, technology, information-technology " class="img-fluid shadow">
       </div>
     </div>
    </div>
@@ -31,11 +31,11 @@
     <div class="container-fuild">
       <div class="row vertical-center">
         <div class="col-md-6 mb-2">
-          <img src="../assets/back1.jpg" class="img-fluid shadow">
+          <img src="../assets/back1.jpg" class="img-fluid-2 shadow">
         </div>
-        <div class="col-md-5 offset-md-1 mb-2">
+        <div class=" img-fluid-3 col-md-5 offset-md-1 mb-2">
           <h2 class="mb-1">Our  Services </h2>
-          <ul class="fa-ul">
+          <ul >
             <li><span class="fa-li"><i class="fas fa-check-circle fa-lg text-tertiary"></i></span><p class="lead">Streamlined automation via machine learning</p></li>
             <li><span class="fa-li"><i class="fas fa-check-circle fa-lg text-tertiary"></i></span><p class="lead">Much greater focus on cybersecurity</p></li>
             <li><span class="fa-li"><i class="fas fa-check-circle fa-lg text-tertiary"></i></span><p class="lead">Virtual face-to-face IT support</p></li>
@@ -275,12 +275,52 @@ body {
     border-radius: 10px;
    
   }
-  img{
-height: max-content;
+  .img-fluid-2 {
+    transform:
+    perspective(1000px)
+    translate3d(-5px, -5px, 10px)
+    rotateX(5deg)
+    rotateY(5deg)
+    scale(0.9, 0.9);
+  border-radius: 20px;
+  border: 5px solid #e6e6e6;
+  box-shadow: -20px 60px 40px -20px rgba(0.5, 0, 0, 0.2);
+  transition: 0.4s ease-in-out transform;
+  height: 100%px;
+  width: 100%;
   }
 
   #why{
     height: 500px
+  }
+  .img-fluid-3 {
+    transform:
+    perspective(1000px)
+    translate3d(-5px, -5px, 10px)
+    rotateX(0deg)
+    rotateY(0deg)
+    scale(0.9, 0.9);
+  border-radius: 20px;
+  border: 5px solid #e6e6e6;
+  box-shadow: -20px 60px 40px -20px rgba(0.5, 0, 0, 0.2);
+  transition: 0.4s ease-in-out transform;
+  height: 100%px;
+  width: 100%;
+  background-color: #eea236;
+
+ 
+
+
+
+
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  }
+  .img-fluid-3:hover {
+    
+   
   }
  
 </style>

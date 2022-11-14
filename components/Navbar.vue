@@ -5,7 +5,7 @@
       <b-navbar variant="info" type="dark">
         <b-navbar-brand href="#">
           <img src="../assets/bobby-dev-low-resolution.png" class="d-inline-block  " alt="Kitten">
-          <h3> B&D USA LLC</h3>
+          <h3> B&D ITA-US</h3>
         </b-navbar-brand>
       </b-navbar>
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>

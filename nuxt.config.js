@@ -1,7 +1,7 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'B&D-LL USA',
+    title: 'B&D ITA-US',
     htmlAttrs: {
       lang: 'en'
     },
